@@ -16,9 +16,10 @@
     ·
     <a href="https://github.com/cdmasd/Contribution-gittune/issues">Request Feature</a>
   </p>
-</div>
-
-![Gitune App Screenshot](https://raw.githubusercontent.com/cdmasd/Contribution-gittune/main/build/appicon.png)
+<br/>
+<p align="center">
+  <em>An aesthetic and minimal desktop application that turns your open source footprint into music.</em>
+</p>
 
 ## 🌟 Features
 

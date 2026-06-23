@@ -22,8 +22,24 @@ function App() {
 
   const CHORD_DURATION = 0.120; // 120ms per chord
 
+  const validateUsername = (name) => {
+    if (!name) return "Username cannot be empty";
+    if (name.length > 39) return "Username is too long (max 39 characters)";
+    if (!/^[a-zA-Z0-9-]+$/.test(name)) return "Username can only contain alphanumeric characters and hyphens";
+    if (name.startsWith('-') || name.endsWith('-')) return "Username cannot begin or end with a hyphen";
+    if (name.includes('--')) return "Username cannot have multiple consecutive hyphens";
+    return null;
+  };
+
   const fetchGraph = async () => {
     if (!username) return;
+
+    const validationError = validateUsername(username);
+    if (validationError) {
+      setError(validationError);
+      return;
+    }
+
     setLoading(true);
     setError(null);
     setContributions(null);

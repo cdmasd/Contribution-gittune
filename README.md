@@ -4,7 +4,7 @@
 <img src="build/appicon.png" alt="Logo" width="120" height="120">
 </a>
 
-<h3 align="center">Gitune 🎵</h3>
+<h3 align="left">Gitune 🎵</h3>
 
   <p align="center">
     <strong>Your GitHub, as music.</strong>

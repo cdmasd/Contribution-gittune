@@ -17,7 +17,7 @@
     <a href="https://github.com/cdmasd/Contribution-gittune/issues">Request Feature</a>
   </p>
 <br/>
-<p align="left">
+<p align="center">
   <em>An aesthetic and minimal desktop application that turns your open source footprint into music.</em>
 </p>
 
